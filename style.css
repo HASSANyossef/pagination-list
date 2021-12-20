@@ -1,0 +1,42 @@
+body,*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    margin: 15rem auto;
+}
+
+.list-item{
+    width: 50%;
+    border: 3px solid darkgoldenrod;
+    padding: 3rem;
+    text-align: center;
+    list-style: none;
+    margin-left: 10rem;
+    box-shadow: 5px 5px 15px #2b2b2b;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+button{
+    width: 15%;
+    padding: 0.5rem;
+    border: 1px solid;
+    background-color: darkgoldenrod;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4a390e;
+}
